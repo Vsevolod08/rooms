@@ -1,0 +1,7 @@
+# compose.prod.yaml
+services:
+  web:
+    build:
+      target: prod
+    ports:
+      - "80:80"
